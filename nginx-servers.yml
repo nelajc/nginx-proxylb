@@ -12,6 +12,7 @@ services:
       network:
         aliases:
           - proxylb
+    restart: always
 
   nginx01:
     image: 'nginx:mylatest'
